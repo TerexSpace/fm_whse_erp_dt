@@ -34,3 +34,12 @@ Thumbs.db
 fm-erp/results/
 fm-erp/experiments/__pycache__/
 fm-erp/scripts/__pycache__/
+
+# Documentation and Paper files
+*.md
+paper/
+.github/
+*.tex
+*.pdf
+JUCS_*.md
+
