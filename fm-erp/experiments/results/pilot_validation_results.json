@@ -1,0 +1,101 @@
+{
+  "config": {
+    "validation_days": 90,
+    "num_warehouses": 3,
+    "random_seed": 42
+  },
+  "metrics": {
+    "fm_erp": {
+      "idr_mean": 0.6455866792252319,
+      "oft_mean": 1.550942050089233,
+      "cost_mean": 123.7373538970185,
+      "consensus_latency_mean": 1.6517596320374377
+    },
+    "baseline": {
+      "idr_mean": 6.548101101832748,
+      "oft_mean": 2.6896173664864094,
+      "cost_mean": 174.63667917402785
+    }
+  },
+  "statistical_analysis": {
+    "idr": {
+      "metric": "Inventory Discrepancy Rate (%)",
+      "n_fm_erp": 90,
+      "n_baseline": 90,
+      "fm_erp_mean": 0.6455866792252319,
+      "fm_erp_std": 0.3063021805170801,
+      "fm_erp_median": 0.6325302422127713,
+      "baseline_mean": 6.548101101832748,
+      "baseline_std": 1.033077684308574,
+      "baseline_median": 6.661785638937534,
+      "improvement_percent": 90.14085657528197,
+      "fm_erp_normal": "False",
+      "baseline_normal": "False",
+      "both_normal": "False",
+      "equal_variance": "False",
+      "test_used": "Mann-Whitney U",
+      "test_statistic": 0.0,
+      "alpha_corrected": 0.008333333333333333,
+      "p_value_raw": 4.888023164211157e-31,
+      "significant_raw": "True",
+      "significant_corrected": "True",
+      "cohens_d": -7.746807318995379,
+      "hedges_g": -7.714120368282319,
+      "effect_interpretation": "large",
+      "ci_95": "(np.float64(-6.124775489818007), np.float64(-5.678913781214583))"
+    },
+    "oft": {
+      "metric": "Order Fulfillment Time (hours)",
+      "n_fm_erp": 90,
+      "n_baseline": 90,
+      "fm_erp_mean": 1.550942050089233,
+      "fm_erp_std": 0.03247719721318949,
+      "fm_erp_median": 1.552296440446031,
+      "baseline_mean": 2.6896173664864094,
+      "baseline_std": 0.04860496777936989,
+      "baseline_median": 2.6947658212359,
+      "improvement_percent": 42.33595940394632,
+      "fm_erp_normal": "True",
+      "baseline_normal": "True",
+      "both_normal": "True",
+      "equal_variance": "False",
+      "test_used": "Mann-Whitney U",
+      "test_statistic": 0.0,
+      "alpha_corrected": 0.008333333333333333,
+      "p_value_raw": 4.888023164211157e-31,
+      "significant_raw": "True",
+      "significant_corrected": "True",
+      "cohens_d": -27.54729701540883,
+      "hedges_g": -27.43106369466871,
+      "effect_interpretation": "large",
+      "ci_95": "(np.float64(-1.150496916140671), np.float64(-1.1266992375745128))"
+    },
+    "cost": {
+      "metric": "Operational Cost Index",
+      "n_fm_erp": 90,
+      "n_baseline": 90,
+      "fm_erp_mean": 123.7373538970185,
+      "fm_erp_std": 1.5428355969786327,
+      "fm_erp_median": 123.6762315777766,
+      "baseline_mean": 174.63667917402785,
+      "baseline_std": 5.181898609724374,
+      "baseline_median": 175.1575262700817,
+      "improvement_percent": 29.145838959917164,
+      "fm_erp_normal": "False",
+      "baseline_normal": "False",
+      "both_normal": "False",
+      "equal_variance": "False",
+      "test_used": "Mann-Whitney U",
+      "test_statistic": 0.0,
+      "alpha_corrected": 0.008333333333333333,
+      "p_value_raw": 4.888023164211157e-31,
+      "significant_raw": "True",
+      "significant_corrected": "True",
+      "cohens_d": -13.313574605886469,
+      "hedges_g": -13.257399185608469,
+      "effect_interpretation": "large",
+      "ci_95": "(np.float64(-52.001382840001995), np.float64(-49.7974007820515))"
+    }
+  },
+  "timestamp": "2025-12-07T04:08:30.710758"
+}
