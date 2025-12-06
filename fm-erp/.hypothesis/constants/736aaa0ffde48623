@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\zmq\green\core.py
+# hypothesis_version: 6.148.7
+
+[11.6, 'RCVTIMEO', '_state_event', 'zmq.green.Context', 'zmq.green.Socket']

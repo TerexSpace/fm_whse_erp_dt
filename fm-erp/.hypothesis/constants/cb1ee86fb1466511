@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\configargparse.py
+# hypothesis_version: 6.148.7
+
+[256, '\n{}\n', '   [env var: %s]', '  %s\n', '  {:<19}{}\n', ' (%s).', ' or ', ' which override ', '#', '%s=%s', '%s|%s', '*', '+', ',', ', ', '-', '---', '--help', '-h', '.', '0', '1', ':', ';', '=', '??', 'CONFIG_OUTPUT_PATH', 'Command Line Args: ', 'Config File (%s):\n', 'DEFAULT', 'Defaults:\n', '[', ']', '_', 'add_config_file_help', 'add_env_var_help', 'auto_env_var_prefix', 'close', 'command_line', 'comment', 'config', 'config file path', 'config file values', 'config_file', 'conflict_handler', 'default', 'default_config_files', 'defaults', 'env_var', 'equal', 'false', 'file', 'formatter_class', 'help', 'is_config_file', 'is_config_file_arg', 'key', 'method arg', 'name', 'no', 'off', 'on', 'parser', 'resolve', 'specified via ', 'stream', 'true', 'value', 'w', 'yes', '{', '{} = {}\n', '|']

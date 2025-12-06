@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\testcontainers\core\utils.py
+# hypothesis_version: 6.148.7
+
+['-c', '/.dockerenv', '/docker', '/docker/', '/proc/self/cgroup', ':', 'aarch64', 'arm64', 'darwin', 'linux', 'linux2', 'mac', 'sh', 'utf-8', 'win', 'win32']

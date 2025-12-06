@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\socketio\zmq_manager.py
+# hypothesis_version: 6.148.7
+
+['+', ':', ':\\d+\\+\\d+$', 'channel', 'data', 'message', 'socketio', 'type', 'zmq', 'zmq+', 'zmq+tcp://']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\selectors.py
+# hypothesis_version: 6.148.7
+
+['DefaultSelector', 'DevpollSelector', 'EpollSelector', 'GeventSelector', 'KqueueSelector', 'PollSelector', '_BaseSelectorImpl', '__all__', '_key_from_fd', '_select', '_selector_cls', 'aggressive', 'select', 'selectors', 'selectors2']

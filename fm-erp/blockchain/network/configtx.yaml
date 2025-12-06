@@ -1,0 +1,142 @@
+Organizations:
+  - &OrdererOrg
+      Name: OrdererMSP
+      ID: OrdererMSP
+      MSPDir: crypto-config/ordererOrganizations/fmerp.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('OrdererMSP.member')"
+        Writers:
+          Type: Signature
+          Rule: "OR('OrdererMSP.member')"
+        Admins:
+          Type: Signature
+          Rule: "OR('OrdererMSP.admin')"
+
+  - &Warehouse1
+      Name: Warehouse1MSP
+      ID: Warehouse1MSP
+      MSPDir: crypto-config/peerOrganizations/warehouse1.fmerp.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('Warehouse1MSP.admin', 'Warehouse1MSP.peer', 'Warehouse1MSP.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('Warehouse1MSP.admin', 'Warehouse1MSP.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('Warehouse1MSP.admin')"
+      AnchorPeers:
+        - Host: peer0.warehouse1.fmerp.com
+          Port: 7051
+
+  - &Warehouse2
+      Name: Warehouse2MSP
+      ID: Warehouse2MSP
+      MSPDir: crypto-config/peerOrganizations/warehouse2.fmerp.com/msp
+      Policies:
+        Readers:
+          Type: Signature
+          Rule: "OR('Warehouse2MSP.admin', 'Warehouse2MSP.peer', 'Warehouse2MSP.client')"
+        Writers:
+          Type: Signature
+          Rule: "OR('Warehouse2MSP.admin', 'Warehouse2MSP.client')"
+        Admins:
+          Type: Signature
+          Rule: "OR('Warehouse2MSP.admin')"
+      AnchorPeers:
+        - Host: peer0.warehouse2.fmerp.com
+          Port: 8051
+
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+  Orderer: &OrdererCapabilities
+    V2_0: true
+  Application: &ApplicationCapabilities
+    V2_0: true
+
+Application: &ApplicationDefaults
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+  Capabilities:
+    <<: *ApplicationCapabilities
+
+Orderer: &OrdererDefaults
+  OrdererType: etcdraft
+  Addresses:
+    - orderer.fmerp.com:7050
+  BatchTimeout: 2s
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+  EtcdRaft:
+    Consenters:
+      - Host: orderer.fmerp.com
+        Port: 7050
+        ClientTLSCert: crypto-config/ordererOrganizations/fmerp.com/orderers/orderer.fmerp.com/tls/server.crt
+        ServerTLSCert: crypto-config/ordererOrganizations/fmerp.com/orderers/orderer.fmerp.com/tls/server.crt
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    BlockValidation:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+  Capabilities:
+    <<: *OrdererCapabilities
+
+Channel: &ChannelDefaults
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  TwoOrgsOrdererGenesis:
+    <<: *ChannelDefaults
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+        - *OrdererOrg
+    Consortiums:
+      FMERPConsortium:
+        Organizations:
+          - *Warehouse1
+          - *Warehouse2
+
+  TwoOrgsChannel:
+    Consortium: FMERPConsortium
+    <<: *ChannelDefaults
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+        - *Warehouse1
+        - *Warehouse2

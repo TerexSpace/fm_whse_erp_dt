@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\timeout.py
+# hypothesis_version: 6.148.7
+
+[0.0, ' exception=%r', ' pending', '%s second%s', '%s second%s (silent)', '%s second%s: %s', 'Timeout', 's', 'timeout_value', 'with_timeout']

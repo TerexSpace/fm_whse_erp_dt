@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\socketio\redis_manager.py
+# hypothesis_version: 6.148.7
+
+['+', ',', '/', ':', '@', 'channel', 'data', 'db', 'eventlet', 'gevent', 'message', 'password', 'redis', 'redis+sentinel', 'redis_exception', 'rediss', 'socket', 'socketio', 'type', 'unix', 'username', 'utf-8', 'valkey', 'valkey+sentinel', 'valkeys']

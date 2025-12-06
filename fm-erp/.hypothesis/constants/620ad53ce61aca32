@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\user\markov_taskset.py
+# hypothesis_version: 6.148.7
+
+['abstract', 'current', 'locust_tag_set', 'on_start', 'on_stop', 'run', 'transitions']

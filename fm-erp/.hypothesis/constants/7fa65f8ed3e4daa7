@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\server\utils\tensorboard.py
+# hypothesis_version: 6.148.7
+
+['%Y%m%dT%H%M%S', '-', 'clients', 'clients/loss', 'clients/num_examples', 'server']

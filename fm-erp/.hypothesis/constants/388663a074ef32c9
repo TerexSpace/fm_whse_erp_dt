@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\experiments\metrics_collector.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1e-10, 5.0, 10.0, 50.0, 100.0, 1000.0, 100, 'CL', 'IDR', 'MAPE', 'OCR', 'OFT', 'PP', 'TPS', 'sync_frequency']

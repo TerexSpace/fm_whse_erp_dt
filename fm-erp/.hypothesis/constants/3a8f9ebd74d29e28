@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\app\metadata.py
+# hypothesis_version: 6.148.7
+
+[', ', '.', '_created_at', '_delivered_at', '_dst_node_id', '_group_id', '_message_id', '_message_type', '_reply_to_message_id', '_run_id', '_src_node_id', '_ttl', 'reconnect']

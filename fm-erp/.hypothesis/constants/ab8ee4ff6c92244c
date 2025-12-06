@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\services\digital_twin\inventory_manager.py
+# hypothesis_version: 6.148.7
+
+['balance', 'delta', 'sku', 'timestamp', 'type']

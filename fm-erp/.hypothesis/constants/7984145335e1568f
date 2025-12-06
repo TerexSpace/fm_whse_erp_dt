@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\events.py
+# hypothesis_version: 6.148.7
+
+['<%s %r at %x>', 'DoNotPatch', 'EventLoopBlocked', 'GeventPatchEvent', 'GeventWillPatchEvent', 'IEventLoopBlocked', 'IGeventDidPatchEvent', 'IGeventPatchEvent', 'subscribers']

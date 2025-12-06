@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\user\inspectuser.py
+# hypothesis_version: 6.148.7
+
+[1.0, 100, ' %-10s %-50s', '%-6.1f', 'per_class', 'ratio', 'tasks', 'total']

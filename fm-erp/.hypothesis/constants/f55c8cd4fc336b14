@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\blockchain\sdk\podq_consensus.py
+# hypothesis_version: 6.148.7
+
+[0.0, 0.05, 0.2, 0.25, 0.35, 0.5, 0.6, 0.75, 0.9, 0.95, 1.0, 24.0, -100, 100, 3600, 'NODE001', 'NODE002', 'NODE003', 'NODE004', 'NODE005', 'NODE006', 'PROD001', 'WH001', '__main__', 'accuracy', 'active_validators', 'average_quality', 'completeness', 'consistency', 'max_quality', 'min_quality', 'product_id', 'quantity', 'sig', 'signature', 'timeliness', 'total_nodes', 'validator', 'warehouse_id']

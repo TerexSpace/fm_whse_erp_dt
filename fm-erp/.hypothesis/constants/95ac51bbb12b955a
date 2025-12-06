@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\geventhttpclient\url.py
+# hypothesis_version: 6.148.7
+
+[443, 65535, "!#$%&'()*+,/:;=?@[]~", "!#$&'()*+,/:;=?@[]~", '%', '&', '/', '0123456789-._~', '?', '__iter__', '_parsed', 'http', 'https', 'utf-8']

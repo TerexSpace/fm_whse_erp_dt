@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust_cloud\args.py
+# hypothesis_version: 6.148.7
+
+['*', '-', '--cloud', '--config', '--delete', '--extra-files', '--extra-packages', '--image-tag', '--local-instance', '--locustfile', '--login', '--loglevel', '--logout', '--non-interactive', '--otel', '--requirements', '--testrun-tags', '--users', '--workers', '-L', '-f', '-u', '.gz', '.tar', '.whl', '/', '<filename>', '<int>', 'DEBUG', 'ERROR', 'INFO', 'LOCUSTCLOUD_', 'LOCUST_LOGLEVEL', 'LOCUST_USERS', 'Locust Cloud', 'WARNING', '__pycache__', 'data', 'filename', 'locust.conf', 'project', 'rb', 'store_true', 'tool.locust', 'w', '~/.locust.conf']

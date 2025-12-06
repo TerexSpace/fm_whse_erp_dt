@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\supercore\constant.py
+# hypothesis_version: 6.148.7
+
+[1000, 1024, '**/*.md', '**/*.py', '**/*.toml', '**/__pycache__/**', '.md', '.py', '.toml', ':flwr-in-memory:', '^\\d+\\.\\d+\\.\\d+$', 'default', 'exec_plugin', 'offline', 'online', 'registered', 'unregistered', 'utf-8']

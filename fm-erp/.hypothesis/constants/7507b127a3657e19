@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\hub.py
+# hypothesis_version: 6.148.7
+
+[' resolver=%r', ' thread_ident=%s', ' threadpool=%r', '%s\n', '%s failed with %s\n\n', '<%s %r at 0x%x %s', '>', 'FileObjectThread', 'GreenletExit', 'Hub', 'Waiter', '__name__', '_on_fork', 'callback', 'debug', 'destroyed', 'error', 'exception', 'get_hub', 'getcurrent', 'kill', 'obj', 'ref', 'reinit', 'run', 'signal', 'sleep', 'spawn_raw']

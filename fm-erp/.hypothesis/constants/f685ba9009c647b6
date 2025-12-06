@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\services\digital_twin\simulator.py
+# hypothesis_version: 6.148.7
+
+[0.1, 0.5, 1.0, 10.0, 50.0, 100, 365, 1440, 'qty', 'sku']

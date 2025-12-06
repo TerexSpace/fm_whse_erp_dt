@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_tblib.py
+# hypothesis_version: 6.148.7
+
+['2.0.0', '?', 'Code', 'Frame', 'Traceback', 'TracebackParseError', '__file__', '__name__', 'alpha', 'co_filename', 'co_name', 'exec', 'f_code', 'f_globals', 'f_lineno', 'replace', 'tb_frame', 'tb_lineno', 'tb_next']

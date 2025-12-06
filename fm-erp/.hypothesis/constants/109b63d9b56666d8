@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\proto\simulationio_pb2_grpc.py
+# hypothesis_version: 6.148.7
+
+['1.70.0', 'GetFederationOptions', 'GetRun', 'GetRunStatus', 'ListAppsToLaunch', 'PullAppInputs', 'PushAppOutputs', 'PushLogs', 'RequestToken', 'SendAppHeartbeat', 'UpdateRunStatus']

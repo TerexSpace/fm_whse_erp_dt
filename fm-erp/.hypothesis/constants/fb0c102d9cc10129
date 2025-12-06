@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\server\strategy\fedxgb_bagging.py
+# hypothesis_version: 6.148.7
+
+['gbtree_model_param', 'gradient_booster', 'id', 'iteration_indptr', 'learner', 'model', 'num_parallel_tree', 'num_trees', 'tree_info', 'trees', 'utf-8']

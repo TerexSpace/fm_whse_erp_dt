@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\telemetry.py
+# hypothesis_version: 6.148.7
+
+[' - ', '0', '1', 'Content-Type', 'POST', 'User-Agent', 'application/json', 'architecture', 'cluster', 'context', 'cpu_count', 'date', 'disabled', 'event_details', 'event_type', 'executor', 'flower', 'flwr-telemetry', 'hw', 'invalid', 'machine', 'package_name', 'package_version', 'partner', 'platform', 'python_version', 'release', 'source', 'system', 'unavailable', 'utf-8', 'version']

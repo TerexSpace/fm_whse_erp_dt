@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\util\date.py
+# hypothesis_version: 6.148.7
+
+[3600, 86400, ' and ', '%Y-%m-%d-%Hh%M', '%Y-%m-%dT%H:%M:%SZ', ', ', '0 seconds', 'day', 'hour', 'minute', 'second']

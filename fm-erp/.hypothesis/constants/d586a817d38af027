@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\experiments\experiment_config.py
+# hypothesis_version: 6.148.7
+
+[0.01, 0.1, 0.3, 1.0, 100, 200, 365, 500, 'Baseline-Blockchain', 'Baseline-Centralized', 'Baseline-DT', 'Baseline-FL', 'FM-ERP', 'aqpso_bv', 'batch_size', 'beta', 'blockchain', 'consensus', 'consensus_latency', 'cplex', 'digital_twin', 'experiments/results/', 'fedavg', 'federated_learning', 'fl_algorithm', 'genetic_algorithm', 'gradient_descent', 'learning_rate', 'local_epochs', 'max_iterations', 'num_particles', 'num_rounds', 'pbft', 'podq', 'privacy_preservation', 'quantum_probability', 'seasonal_poisson', 'standard_pso', 'throughput_tps']

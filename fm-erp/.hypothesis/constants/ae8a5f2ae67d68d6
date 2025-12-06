@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\proto\transport_pb2.py
+# hypothesis_version: 6.148.7
+
+[b'8\x01', 101, 151, 154, 500, 531, 534, 626, 691, 694, 851, 854, 1035, 1038, 1229, 1236, 1239, 1587, 1638, 1641, 1777, 1846, 1848, 1946, 1949, 2125, 2191, 2194, 2416, 2423, 2425, 2548, 2551, 2692, 2694, 2785, 2787, 2870, '_CLIENTMESSAGE', '_CODE', '_FLOWERSERVICE', '_PARAMETERS', '_REASON', '_SCALAR', '_SERVERMESSAGE', '_STATUS']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_socket3.py
+# hypothesis_version: 6.148.7
+
+[0.0, 8192, ' [closed]', '127.0.0.1', '::1', '<%s.%s%s at 0x%x%s%s', '<socket [%r]>', '<socket object', 'Bad file descriptor', 'MSG_DONTWAIT', 'SOCK_NONBLOCK', 'TCP_KEEPALIVE', 'TCP_KEEPCNT', '__weakref__', '_closed', '_io_refs', 'b', 'close', 'closed', 'description', 'detached', 'family', 'fromshare', 'mode', 'nt', 'orig_fileno', 'proto', 'r', 'recvmsg', 'recvmsg_into', 'seek', 'sendmsg', 'share', 'socketpair', 'type', 'w']

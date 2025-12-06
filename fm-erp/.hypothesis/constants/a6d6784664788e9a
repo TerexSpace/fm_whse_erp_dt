@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\thread.py
+# hypothesis_version: 6.148.7
+
+[0.001, 'LockType', 'RLock', 'TIMEOUT_MAX', '_ThreadHandle', '_local', '_make_thread_handle', '_thread', 'allocate', 'allocate_lock', 'error', 'exit', 'exit_thread', 'get_ident', 'get_native_id', 'interrupt_main', 'join', 'lock', 'set_name', 'stack_size', 'start_new', 'start_new_thread', 'thread not started']

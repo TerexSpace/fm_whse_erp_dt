@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\libuv\watcher.py
+# hypothesis_version: 6.148.7
+
+[0.001, 0.1074891, 1000, ' Args: ', ' KWARGS: ', ' UVError: ', '%s_t', 'Callback error on', 'Closing handle', 'Not implemented', 'READ', 'WRITE', '_events', '_fd', '_uv_close_callback', 'ascii', 'async', 'fs_poll', 'gevent_fs_poll_t', 'pass_events', 'poll', 'uv', 'uv_handle_t*', 'win32']

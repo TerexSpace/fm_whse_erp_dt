@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\proto\fleet_pb2.py
+# hypothesis_version: 6.148.7
+
+[b'8\x01', 159, 205, 207, 251, 253, 322, 324, 363, 365, 405, 407, 431, 433, 478, 480, 509, 511, 585, 588, 750, 753, 904, 907, 1062, 1108, 1110, 1140, 1143, 2199, '_ACTIVATENODEREQUEST', '_FLEET', '_PULLMESSAGESREQUEST', '_PUSHMESSAGESREQUEST', '_RECONNECT', 'flwr.proto.fleet_pb2']

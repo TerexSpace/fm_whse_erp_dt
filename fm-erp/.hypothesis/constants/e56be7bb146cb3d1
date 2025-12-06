@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\monkey\__init__.py
+# hypothesis_version: 6.148.7
+
+['%s (%s)', '<unknown>', 'LifoQueue', 'MonkeyPatchWarning', 'PriorityQueue', 'Queue', 'SSLContext', 'SimpleQueue', '__file__', '__name__', 'aggressive', 'false', 'gc', 'get_original', 'gevent.', 'gevent._ssl3', 'gevent._sslgte279', 'gevent.ssl', 'is_module_patched', 'is_object_patched', 'kwargs', 'main', 'os', 'patch_all', 'patch_builtins', 'patch_dns', 'patch_module', 'patch_os', 'patch_queue', 'patch_select', 'patch_signal', 'patch_socket', 'patch_ssl', 'patch_subprocess', 'patch_sys', 'patch_thread', 'patch_time', 'queue', 'select', 'selectors', 'signal', 'socket', 'ssl', 'subprocess', 'time', 'win']

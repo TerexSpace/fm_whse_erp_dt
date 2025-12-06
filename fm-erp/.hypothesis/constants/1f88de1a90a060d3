@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\event.py
+# hypothesis_version: 6.148.7
+
+[1000, 'EventHook', 'context', 'exception', 'name', 'request_type', 'response_length', 'response_time', 'start_time']

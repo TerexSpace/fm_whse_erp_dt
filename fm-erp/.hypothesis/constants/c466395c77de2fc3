@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\serverapp\strategy\__init__.py
+# hypothesis_version: 6.148.7
+
+['Bulyan', 'FedAdagrad', 'FedAdam', 'FedAvg', 'FedAvgM', 'FedMedian', 'FedProx', 'FedTrimmedAvg', 'FedXgbBagging', 'FedXgbCyclic', 'FedYogi', 'Krum', 'MultiKrum', 'QFedAvg', 'Result', 'Strategy']

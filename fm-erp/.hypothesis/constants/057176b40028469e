@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\torch\nn\__init__.py
+# hypothesis_version: 6.148.7
+
+['device', 'dtype', 'factory_kwargs', 'memory_format']

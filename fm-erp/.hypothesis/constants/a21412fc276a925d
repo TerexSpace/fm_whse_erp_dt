@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_ffi\callback.py
+# hypothesis_version: 6.148.7
+
+[' args=%r', ' callback=%r', ' pending', ' stopped', '<%s at 0x%x', '>', 'args', 'callback']

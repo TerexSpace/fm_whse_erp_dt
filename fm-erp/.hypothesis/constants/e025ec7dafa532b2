@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\supercore\object_store\sqlite_object_store.py
+# hypothesis_version: 6.148.7
+
+[', ', '?', 'DELETE FROM objects;', 'child_id', 'cnt', 'content', 'is_available', 'object_id', 'ref_count']

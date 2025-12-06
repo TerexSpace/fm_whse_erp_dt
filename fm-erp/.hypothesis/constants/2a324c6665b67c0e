@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\testcontainers\core\config.py
+# hypothesis_version: 6.148.7
+
+['/var/run/docker.sock', '1', '10s', '120', '=', 'ConnectionMode', 'DOCKER_AUTH_CONFIG', 'MAX_TRIES', 'RYUK_CONTAINER_IMAGE', 'RYUK_DISABLED', 'RYUK_DOCKER_SOCKET', 'RYUK_IMAGE', 'RYUK_PRIVILEGED', 'SLEEP_TIME', 'TC_HOST', 'TC_MAX_TRIES', 'TC_POOLING_INTERVAL', 'TIMEOUT', 'bridge_ip', 'docker_host', 'gateway_ip', 'max_tries', 'ryuk.disabled', 'ryuk_disabled', 'ryuk_docker_socket', 'ryuk_image', 'ryuk_privileged', 'sleep_time', 't', 'tc.host', 'timeout', 'true', 'y', 'yes']

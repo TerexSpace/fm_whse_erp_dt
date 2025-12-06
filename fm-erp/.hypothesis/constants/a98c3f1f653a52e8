@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flask_login\utils.py
+# hypothesis_version: 6.148.7
+
+[b',', 10.0, 3600, '/', 'LOGIN_DISABLED', 'REMEMBER_COOKIE_NAME', 'SECRET_KEY', 'User-Agent', 'X-Forwarded-For', '_fresh', '_id', '_login_user', '_remember', '_remember_seconds', '_user_id', 'ascii', 'clear', 'decode', 'ensure_sync', 'http://', 'https://', 'latin1', 'next', 'replace', 'set', 'utf-8', 'utf8', '|']

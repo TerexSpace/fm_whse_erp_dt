@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust_cloud\__init__.py
+# hypothesis_version: 6.148.7
+
+[200, 202, 300, 365, ',', '--cloud', '.', '.dev.', '/deploy', 'INFO', 'IdleTimeout', 'Interrupted by user', 'KeyboardInterrupt', 'LOCUSTCLOUD_REGION', 'LOCUST_', 'LOCUST_CLOUD', 'LOCUST_FLAGS', 'LOCUST_LOCUSTFILE', 'LOCUST_LOGLEVEL', 'LOCUST_USERS', 'OTEL_', 'Shutdown', 'WebsocketTimeout', 'api-dev', 'extra_packages', 'image_tag', 'latest', 'locust_args', 'log_ws_url', 'master', 'message', 'name', 'project_data', 'requests', 'requirements', 'session_id', 'subscribe', 'true', 'urllib3', 'user_count', 'valid-session-id', 'value', 'worker_count']

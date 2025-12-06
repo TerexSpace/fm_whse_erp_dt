@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\torch\fx\passes\operator_support.py
+# hypothesis_version: 6.148.7
+
+['OpSupports', 'OperatorSupport', 'OperatorSupportBase', 'any_chain', 'chain', 'create_op_support', 'tensor_meta', 'type']

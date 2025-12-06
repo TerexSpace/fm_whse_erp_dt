@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flask_login\__init__.py
+# hypothesis_version: 6.148.7
+
+['AUTH_HEADER_NAME', 'AnonymousUserMixin', 'COOKIE_DURATION', 'COOKIE_HTTPONLY', 'COOKIE_NAME', 'COOKIE_SECURE', 'FlaskLoginClient', 'ID_ATTRIBUTE', 'LOGIN_MESSAGE', 'LoginManager', 'REFRESH_MESSAGE', 'UserMixin', '__version__', 'confirm_login', 'current_user', 'decode_cookie', 'encode_cookie', 'fresh_login_required', 'login_fresh', 'login_remembered', 'login_required', 'login_url', 'login_user', 'logout_user', 'make_next_param', 'session_protected', 'set_login_view', 'user_accessed', 'user_logged_in', 'user_logged_out', 'user_login_confirmed', 'user_needs_refresh', 'user_unauthorized']

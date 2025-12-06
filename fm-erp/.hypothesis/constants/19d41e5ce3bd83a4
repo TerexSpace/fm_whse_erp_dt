@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\log.py
+# hypothesis_version: 6.148.7
+
+[500, '%(message)s', 'INFO', '\\..*', 'class', 'console', 'console_plain', 'default', 'file', 'filename', 'format', 'formatter', 'formatters', 'handlers', 'level', 'locust', 'locust.log.LogReader', 'locust.stats_logger', 'log_reader', 'loggers', 'logging.FileHandler', 'plain', 'propagate', 'root', 'version']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\serde_utils.py
+# hypothesis_version: 6.148.7
+
+['T', 'bool', 'bool_list', 'bytes', 'bytes_list', 'double', 'double_list', 'list', 'sint64', 'sint_list', 'string', 'string_list', 'uint64', 'uint_list', 'value']

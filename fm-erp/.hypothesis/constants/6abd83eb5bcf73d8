@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\socketio\async_redis_manager.py
+# hypothesis_version: 6.148.7
+
+['+', 'aioredis', 'channel', 'data', 'from_url', 'message', 'redis', 'redis+sentinel', 'redis_exception', 'rediss', 'socketio', 'type', 'unix', 'utf-8', 'valkey', 'valkey+sentinel', 'valkeys']

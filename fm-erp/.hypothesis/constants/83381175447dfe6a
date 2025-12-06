@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\services\iot_ingestion\adapters\barcode_adapter.py
+# hypothesis_version: 6.148.7
+
+['OP-001', 'iot.barcode.events', 'utf-8']

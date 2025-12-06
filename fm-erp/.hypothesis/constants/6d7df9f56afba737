@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\torch\version.py
+# hypothesis_version: 6.148.7
+
+['2.9.1+cpu', '__version__', 'cuda', 'debug', 'git_version', 'hip', 'xpu']

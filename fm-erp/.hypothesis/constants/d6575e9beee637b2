@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\server\superlink\linkstate\sqlite_linkstate.py
+# hypothesis_version: 6.148.7
+
+[0.0, ' AND ', ' LIMIT :limit', ' WHERE ', ' WHERE node_id = ?', ',', ', ', ';', '?', 'COUNT(*)', 'SELECT * FROM node', '`limit` must be >= 1', '`run_id` is invalid', '`run` is invalid', 'content', 'context', 'created_at', 'delivered_at', 'details', 'dst_node_id', 'error', 'fab_hash', 'fab_id', 'fab_version', 'federation', 'federation_options', 'finished_at', 'flwr_aid', 'group_id', 'limit', 'log', 'message_id', 'message_type', 'node_id', 'num', 'online_until', 'override_config', 'pending_at', 'public_key', 'reply_to_message_id', 'run_id', 'running_at', 'src_node_id', 'starting_at', 'status', 'sub_status', 'timestamp', 'ttl']

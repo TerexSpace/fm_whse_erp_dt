@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\contrib\fasthttp.py
+# hypothesis_version: 6.148.7
+
+[b':', 60.0, 200, 201, 202, 203, 204, 205, 206, 207, 208, 226, 301, 302, 303, 304, 307, 308, 400, 1000, 1024, '&', ',', ', ', '/((home|Users)/\\w*)/', ':', ':%d', '?', 'Accept', 'Accept-Encoding', 'Assertion failed', 'Authorization', 'Basic ', 'Content-Type', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'PATCH', 'POST', 'PUT', '^https?://', '_=...', 'accept', 'accept-encoding', 'application/json', 'ascii', 'content-type', 'context', 'encoding', 'error', 'exception', 'gzip, deflate, br', 'headers', 'https', 'latin1', 'name', 'params', 'payload', 'replace', 'request_type', 'response', 'response_length', 'response_time', 'start_time', 'url', 'utf-8', '~/']

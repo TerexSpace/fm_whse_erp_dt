@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\services\iot_ingestion\adapters\weight_scale_adapter.py
+# hypothesis_version: 6.148.7
+
+[10.5, 'iot.weight.events', 'kg', 'utf-8']

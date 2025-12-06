@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\grpc.py
+# hypothesis_version: 6.148.7
+
+[100, 1000, 210000, 2147483647, 'GRPC_VERBOSITY', 'error']

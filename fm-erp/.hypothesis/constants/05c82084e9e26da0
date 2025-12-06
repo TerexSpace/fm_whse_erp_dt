@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\geventhttpclient\requests.py
+# hypothesis_version: 6.148.7
+
+[100, 300, 310, 400, 600, 'Content-Type', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'PATCH', 'POST', 'PUT', 'allow_redirects', 'application/json', 'location', 'max_redirects']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\__init__.py
+# hypothesis_version: 6.148.7
+
+['Array', 'ArrayRecord', 'ClientMessage', 'Code', 'Config', 'ConfigRecord', 'ConfigRecordValues', 'ConfigsRecord', 'Context', 'DEFAULT_TTL', 'DisconnectRes', 'Error', 'EvaluateIns', 'EvaluateRes', 'EventType', 'FitIns', 'FitRes', 'GetParametersIns', 'GetParametersRes', 'GetPropertiesIns', 'GetPropertiesRes', 'Message', 'MessageType', 'MessageTypeLegacy', 'Metadata', 'MetricRecord', 'MetricRecordValues', 'Metrics', 'MetricsAggregationFn', 'MetricsRecord', 'NDArray', 'NDArrays', 'Parameters', 'ParametersRecord', 'Properties', 'ReconnectIns', 'RecordDict', 'RecordSet', 'Scalar', 'ServerMessage', 'Status', 'array_from_numpy', 'bytes_to_ndarray', 'configure', 'event', 'log', 'ndarray_to_bytes', 'now']

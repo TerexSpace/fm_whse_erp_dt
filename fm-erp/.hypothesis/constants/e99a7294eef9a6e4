@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\client\__init__.py
+# hypothesis_version: 6.148.7
+
+['Client', 'ClientApp', 'ClientFn', 'ClientFnExt', 'NumPyClient', 'mod', 'start_client', 'start_numpy_client']

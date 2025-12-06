@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_interfaces.py
+# hypothesis_version: 6.148.7
+
+[0.0, '%s (required? %s)', 'ICallback', 'ILoop', 'IWatcher', 'min', 'readonly', 'win32']

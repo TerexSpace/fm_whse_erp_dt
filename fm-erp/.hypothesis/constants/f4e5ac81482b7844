@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\serverapp\strategy\fedavg.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1.0, '\t├──> Sampling:', 'aggregate_evaluate', 'aggregate_train', 'arrays', 'config', 'num-examples', 'server-round']

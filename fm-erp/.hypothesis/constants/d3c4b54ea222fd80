@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\pool.py
+# hypothesis_version: 6.148.7
+
+['<%s at 0x%x %s>', 'Group', 'Pool', 'PoolFull', '_raise_exception', 'callback', 'maxsize']

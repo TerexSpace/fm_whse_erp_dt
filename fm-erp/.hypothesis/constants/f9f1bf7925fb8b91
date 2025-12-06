@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\monkey\_patch_thread_gte313.py
+# hypothesis_version: 6.148.7
+
+[0.001, '_handle', '_os_thread_handle', '_shutdown']

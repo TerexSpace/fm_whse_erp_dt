@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\compat\client\grpc_client\connection.py
+# hypothesis_version: 6.148.7
+
+['config', 'evaluate_ins', 'fit_ins', 'gRPC channel closed', 'get_parameters_ins', 'get_properties_ins', 'msg', 'reason', 'reconnect', 'reconnect_ins', 'seconds']

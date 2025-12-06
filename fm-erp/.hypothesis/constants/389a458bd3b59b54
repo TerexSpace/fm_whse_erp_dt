@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\socketio\base_server.py
+# hypothesis_version: 6.148.7
+
+['*', '/', 'async_handlers', 'connect', 'default', 'disconnect', 'engineio_logger', 'json', 'logger', 'message', 'msgpack', 'socketio.server']

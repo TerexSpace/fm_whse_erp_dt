@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\app\__init__.py
+# hypothesis_version: 6.148.7
+
+['Array', 'ArrayRecord', 'ConfigRecord', 'Context', 'Error', 'Message', 'MessageType', 'Metadata', 'MetricRecord', 'RecordDict']

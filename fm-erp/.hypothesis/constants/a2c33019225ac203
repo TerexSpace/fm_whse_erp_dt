@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\websocket\_logging.py
+# hypothesis_version: 6.148.7
+
+['DEBUG', 'debug', 'dump', 'enableTrace', 'error', 'isEnabledForDebug', 'isEnabledForError', 'isEnabledForTrace', 'trace', 'warning', 'websocket']

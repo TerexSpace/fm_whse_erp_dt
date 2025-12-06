@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\services\federated_learning\fl_client.py
+# hypothesis_version: 6.148.7
+
+[0.0, 0.01, 1.0, 'cpu', 'cuda:0', 'gradient_hash', 'learning_rate', 'local_epochs']

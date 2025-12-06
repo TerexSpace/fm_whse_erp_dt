@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\server\workflow\constant.py
+# hypothesis_version: 6.148.7
+
+['config', 'current_round', 'parameters', 'start_time']

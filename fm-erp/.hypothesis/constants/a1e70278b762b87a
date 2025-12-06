@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_util.py
+# hypothesis_version: 6.148.7
+
+[b'.. (versionchanged|versionadded|deprecated):: NEXT', b'.. \\1:: %s', '%Y-%m-%dT%H:%M:%SZ', '--staged', '--version', '--yes', '<default value>', 'CHANGES.rst', '__', '__all__', '__annotations__', '__dict__', '__doc__', '__implements__', '__imports__', '__module__', '__name__', '__qualname__', 'ascii', 'build', 'copy_globals', 'gevent', 'gevent._', 'gevent._gevent_c', 'git', 'ignore', 'import_c_accel', 'name', 'new_version', 'rb', 'reporoot', 'restore', 'src', 'towncrier', 'update_history', 'wb']

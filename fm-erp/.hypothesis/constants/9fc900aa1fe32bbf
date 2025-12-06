@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_ffi\loop.py
+# hypothesis_version: 6.148.7
+
+[0.0, ' callbacks=', ' default', ' fileno=', ' pending=%s', ' ptr=', ' ref=', '%s: %s', '<%s.%s at 0x%x %s>', 'AbstractLoop', 'async', 'backend=', 'default', 'destroyed', 'gevent.core.EVENTS', 'handle', 'handle_error', 'watcher_ptr', 'win32']

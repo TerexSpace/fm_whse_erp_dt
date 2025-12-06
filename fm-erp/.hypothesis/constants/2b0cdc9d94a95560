@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\geventhttpclient\client.py
+# hypothesis_version: 6.148.7
+
+[443, 1024, '/', ':', ': ', 'Content-Length', 'DELETE', 'GET', 'HEAD', 'HTTP/1.0', 'HTTP/1.1', 'Host', 'Invalid host in URL', 'OPTIONS', 'PATCH', 'POST', 'PUT', 'TRACE', 'User-Agent', '[', ']', 'host', 'http', 'https', 'server_hostname', 'ssl_options', 'utf-8']

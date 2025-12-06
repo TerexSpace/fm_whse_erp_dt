@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\lock.py
+# hypothesis_version: 6.148.7
+
+['<%s>', 'Atomic', 'BoundedSemaphore', 'DummySemaphore', 'RLock', 'Semaphore', '__weakref__', '_atomic', '_block', '_count', '_gil', '_lock_lock', '_owned_thread_id', '_owner', '_recursion_depth', '_thread', 'acquire', 'allocate_lock', 'get_ident', 'release', 'thread', 'wait']

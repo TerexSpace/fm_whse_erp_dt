@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\logger.py
+# hypothesis_version: 6.148.7
+
+['\x1b[0m', '\x1b[91m', '\x1b[92m', '\x1b[93m', '\x1b[94m', '\x1b[95m', '/log', 'CRITICAL', 'DEBUG', 'ERROR', 'FLWR_LOG_LEVEL', 'GET', 'INFO', 'POST', 'RESET', 'WARNING', 'asctime', 'error-message', 'filename', 'flwr', 'identifier', 'levelname', 'lineno', 'message', 'name', 'success']

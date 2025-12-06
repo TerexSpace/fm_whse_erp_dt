@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\blockchain\sdk\fabric_client.py
+# hypothesis_version: 6.148.7
+
+[500, 'Admin', 'C-03-05', 'CreateProduct', 'ENDORSER_TRANSACTION', 'GetAllProducts', 'PROD003', 'ReadProduct', 'SKU-C003', 'TransferProduct', 'UpdateQuantity', 'WH001', 'Warehouse1MSP', 'Widget C', '__main__', 'data', 'error', 'inventory', 'inventorychannel', 'orderer.fmerp.com', 'r', 'success', 'tx_id']

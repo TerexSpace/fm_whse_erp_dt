@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\serverapp\strategy\qfedavg.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1e-10, 0.1, 1.0, '\t│\t├── q: %s', 'arrays', 'config', 'num-examples', 'train_loss']

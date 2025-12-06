@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\monkey\_patch_thread_common.py
+# hypothesis_version: 6.148.7
+
+[0.01, 'Event', '_Event', '_RLock__owner', '_lock', '_owner', '_shutdown', '_threading_local', 'gc', 'local', 'lock', 'logging', 'thread', 'threading']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust_cloud\web_login.py
+# hypothesis_version: 6.148.7
+
+['authentication_url', 'authorized', 'failed', 'id_token', 'id_token_expires', 'pending', 'refresh_token', 'region', 'result_url', 'state', 'user_sub_id']

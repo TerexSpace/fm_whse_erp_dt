@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\docker\context\context.py
+# hypothesis_version: 6.148.7
+
+['DefaultNamespace', 'Endpoints', 'Host', 'IN MEMORY', 'Metadata', 'MetadataPath', 'Name', 'Name not provided', 'SkipTLSVerify', 'StackOrchestrator', 'Storage', 'TLSMaterial', 'TLSPath', 'Type', 'ca', 'cert', 'docker', 'key', 'swarm', 'w']

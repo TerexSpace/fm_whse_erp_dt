@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\experiments\data_generator.py
+# hypothesis_version: 6.148.7
+
+[0.3, 0.33, 0.34, 1.5, 100, 200, 300, 365, 500, 'logistics', 'manufacturing', 'retail']

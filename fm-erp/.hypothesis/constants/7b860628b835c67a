@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\proto\message_pb2.py
+# hypothesis_version: 6.148.7
+
+[b'8\x01', 144, 268, 271, 468, 537, 539, 607, 610, 800, 802, 833, 835, 908, 910, 1020, 1022, 1058, 1060, 1146, 1148, 1240, 1242, 1348, 1350, 1382, '_CONTEXT', '_MESSAGE', '_METADATA', '_OBJECTIDS', '_OBJECTTREE', '_PULLOBJECTREQUEST', '_PULLOBJECTRESPONSE', '_PUSHOBJECTREQUEST', '_PUSHOBJECTRESPONSE']

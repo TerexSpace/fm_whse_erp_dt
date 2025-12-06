@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\_ffi\watcher.py
+# hypothesis_version: 6.148.7
+
+[0.0, '\nTraceback:\n', ' *', ' args=%r', ' callback=%r', ' fd=%d', ' handle=%s', ' pending', ' pid=%r rstatus=%r', ' ref=%s', ' stopped', ' watcher=%s', '%s%s', '<%s at 0x%x', '<NoWatcher>', '>', '_', '__del__', '__self__', '_args', '_callback', '_is_active', '_watcher', '_watcher_prefix', '_watcher_skip_ffi', '_watcher_struct_name', '_watcher_type', 'async', 'char[]', 'check', 'fork', 'idle', 'init', 'lines', 'not while active', 'pass_events', 'prepare', 'signal', 'start', 'stop', 'struct %s', 'timer', 'update', 'watcher', '|']

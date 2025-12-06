@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\baseserver.py
+# hypothesis_version: 6.148.7
+
+[0.01, 100, ' handle=', '*', ':', '<%s %s>', '<%s at %s %s>', '<error>', 'BaseServer', '[', ']', '__self__', '_handle', '_spawn', 'accept', 'address=%s', 'address=%s:%s', 'default', 'do_handshake', 'fileno=%s ', 'full', 'handle', 'socket', 'spawn']

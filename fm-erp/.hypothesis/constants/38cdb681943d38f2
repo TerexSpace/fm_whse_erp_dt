@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust_cloud\apisession.py
+# hypothesis_version: 6.148.7
+
+[200, ', ', '/teardown', 'Authorization', 'LOCUSTCLOUD_PASSWORD', 'LOCUSTCLOUD_REGION', 'LOCUSTCLOUD_USERNAME', 'X-Client-Version', 'debug_info', 'id_token_expires', 'password', 'reason', 'refresh_token', 'user_sub_id', 'username']

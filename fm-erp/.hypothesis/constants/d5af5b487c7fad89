@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\proto\serverappio_pb2_grpc.py
+# hypothesis_version: 6.148.7
+
+['1.70.0', 'GetFab', 'GetNodes', 'GetRun', 'GetRunStatus', 'ListAppsToLaunch', 'PullAppInputs', 'PullMessages', 'PullObject', 'PushAppOutputs', 'PushLogs', 'PushMessages', 'PushObject', 'RequestToken', 'SendAppHeartbeat', 'UpdateRunStatus']

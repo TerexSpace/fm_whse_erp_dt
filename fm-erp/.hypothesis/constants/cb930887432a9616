@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\pathspec\__init__.py
+# hypothesis_version: 6.148.7
+
+['GitIgnoreSpec', 'PathSpec', 'Pattern', 'RecursionError', 'RegexPattern', '__author__', '__copyright__', '__credits__', '__license__', '__version__', 'iter_tree', 'lookup_pattern', 'match_files']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flask_login\signals.py
+# hypothesis_version: 6.148.7
+
+['accessed', 'loaded-from-cookie', 'loaded-from-header', 'loaded-from-request', 'logged-in', 'logged-out', 'login-confirmed', 'needs-refresh', 'session-protected', 'unauthorized']

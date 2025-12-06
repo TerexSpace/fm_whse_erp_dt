@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\record\typeddict.py
+# hypothesis_version: 6.148.7
+
+['K', 'V', '_check_key_fn', '_check_value_fn', '_data']

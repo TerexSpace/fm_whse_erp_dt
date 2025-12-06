@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\testcontainers\compose\compose.py
+# hypothesis_version: 6.148.7
+
+[120, 200, 400, '--build', '--detach', '--env-file', '--format', '--no-interpolate', '--no-normalize', '--no-path-resolution', '--profile', '--volumes', '--wait', '-T', '-a', '-f', '0.0.0.0', '127.0.0.1', ':', 'ComposeContainer', 'DockerCompose', 'GET', 'IPv4', 'IPv6', 'OT', 'PublishedPortModel', 'URL', 'Windows', '\\r?\\n', '_IPT', 'compose', 'config', 'docker', 'down', 'exec', 'json', 'logs', 'ps', 'pull', 'stop', 'unknown', 'up', 'utf-8']

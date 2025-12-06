@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\os.py
+# hypothesis_version: 6.148.7
+
+[0.001, 'EAGAIN', 'WNOHANG', 'WNOWAIT', 'close', 'fork', 'fork_and_watch', 'fork_gevent', 'forkpty', 'forkpty_and_watch', 'forkpty_gevent', 'ignore', 'make_nonblocking', 'nb_read', 'nb_write', 'posix_spawn', 'posix_spawnp', 'tp_read', 'tp_write', 'waitpid']

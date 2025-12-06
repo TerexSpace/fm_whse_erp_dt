@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\proto\run_pb2.py
+# hypothesis_version: 6.148.7
+
+[b'8\x01', 117, 416, 489, 491, 555, 557, 620, 622, 668, 670, 753, 755, 780, 782, 852, 855, 957, 1032, 1034, 1079, 1081, 1165, '_GETRUNREQUEST', '_GETRUNRESPONSE', '_GETRUNSTATUSREQUEST', '_RUN', '_RUNSTATUS', 'flwr.proto.run_pb2', 'flwr/proto/run.proto']

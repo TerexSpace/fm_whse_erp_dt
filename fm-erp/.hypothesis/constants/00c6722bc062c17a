@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\Desktop\New JUCS Submission Package - Article\fm-erp\services\digital_twin\metrics.py
+# hypothesis_version: 6.148.7
+
+[0.0, 'avg_inventory', 'fulfilled', 'order', 'qty', 'sku', 'state', 'status', 'stockout_incidents', 'time', 'total_procurements']

@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\libuv\loop.py
+# hypothesis_version: 6.148.7
+
+[0.001, 1000.0, 100, 300, 4294967295, 'Destroyed during run', 'Failed to get loop', 'HandleState', '_check_fd_valid', '_no_more_watchers', 'active', 'ascii', 'closing', 'default', 'handle', 'libuv-', 'libuv-%d.%d.%d', 'ref', 'type', 'uv_check_t *', 'uv_handle_t*', 'uv_prepare_t *', 'uv_signal_t*', 'uv_timer_t*', 'void(*)(uv_timer_t*)', 'void(*)(void*)', 'watcher']

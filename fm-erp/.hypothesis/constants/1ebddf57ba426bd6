@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flask_login\login_manager.py
+# hypothesis_version: 6.148.7
+
+[401, '/', 'AUTH_HEADER_NAME', 'LOGIN_DISABLED', 'REMEMBER_COOKIE_NAME', 'REMEMBER_COOKIE_PATH', 'SESSION_PROTECTION', 'USE_SESSION_FOR_NEXT', '_fresh', '_id', '_remember', '_remember_seconds', '_user_id', 'basic', 'clear', 'next', 'set', 'strong']

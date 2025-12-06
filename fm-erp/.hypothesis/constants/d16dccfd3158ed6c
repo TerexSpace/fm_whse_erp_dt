@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\signal.py
+# hypothesis_version: 6.148.7
+
+['SIGCHLD', 'getsignal', 'set_wakeup_fd', 'signal', 'waitpid']

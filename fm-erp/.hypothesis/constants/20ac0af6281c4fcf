@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\serde.py
+# hypothesis_version: 6.148.7
+
+['POWER_DISCONNECTED', 'RECONNECT', 'UNKNOWN', 'WIFI_UNAVAILABLE', 'array_record', 'config_record', 'content', 'error', 'metric_record', 'scalar', 'value']

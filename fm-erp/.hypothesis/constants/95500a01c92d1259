@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\flwr\common\secure_aggregation\secaggplus_constants.py
+# hypothesis_version: 6.148.7
+
+[1073741824, 'active_nids', 'clipping_range', 'ctxts', 'dead_nids', 'dsts', 'masked_params', 'max_weight', 'mod_range', 'nids', 'params', 'pk1', 'pk2', 'sample_num', 'secaggplus_configs', 'secaggplus_state', 'setup', 'share_keys', 'share_num', 'shares', 'srcs', 'stage', 'target_range', 'threshold', 'unmask']

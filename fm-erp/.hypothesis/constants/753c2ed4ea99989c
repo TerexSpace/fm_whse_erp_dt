@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\zmq\backend\select.py
+# hypothesis_version: 6.148.7
+
+['Context', 'Frame', 'IPC_PATH_MAX_LEN', 'Message', 'PYZMQ_DRAFT_API', 'Socket', 'curve_keypair', 'curve_public', 'has', 'monitored_queue', 'proxy', 'proxy_steerable', 'strerror', 'zmq_errno', 'zmq_poll', 'zmq_version_info']

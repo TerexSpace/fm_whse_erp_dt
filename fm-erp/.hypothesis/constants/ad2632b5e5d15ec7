@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\gevent\select.py
+# hypothesis_version: 6.148.7
+
+[1000.0, 128, 256, 'aggressive', 'devpoll', 'epoll', 'error', 'event', 'events', 'kevent', 'kqueue', 'poll', 'select', 'win32']

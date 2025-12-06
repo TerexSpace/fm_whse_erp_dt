@@ -1,0 +1,4 @@
+# file: C:\Users\aleke\AppData\Roaming\Python\Python313\site-packages\locust\clients.py
+# hypothesis_version: 6.148.7
+
+[1000, ':%d', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'PATCH', 'POST', 'PUT', '^https?://', 'allow_redirects', 'content-length', 'context', 'exception', 'http://', 'https://', 'name', 'request_type', 'response', 'response_length', 'response_time', 'start_time', 'stream', 'url']

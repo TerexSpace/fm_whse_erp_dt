@@ -1,0 +1,318 @@
+version: '3.9'
+
+services:
+  # ========================================
+  # BLOCKCHAIN LAYER
+  # ========================================
+  
+  fabric-orderer:
+    image: hyperledger/fabric-orderer:2.4
+    container_name: fm-erp-orderer
+    environment:
+      - ORDERER_GENERAL_LOGLEVEL=INFO
+      - ORDERER_GENERAL_LISTENADDRESS=0.0.0.0
+      - ORDERER_GENERAL_BOOTSTRAPMETHOD=file
+      - ORDERER_GENERAL_BOOTSTRAPFILE=/etc/hyperledger/fabric/genesis.block
+      - ORDERER_GENERAL_LOCALMSPID=OrdererMSP
+      - ORDERER_GENERAL_LOCALMSPDIR=/etc/hyperledger/fabric/msp
+      - ORDERER_GENERAL_TLS_ENABLED=true
+      - ORDERER_GENERAL_TLS_PRIVATEKEY=/etc/hyperledger/fabric/tls/server.key
+      - ORDERER_GENERAL_TLS_CERTIFICATE=/etc/hyperledger/fabric/tls/server.crt
+      - ORDERER_GENERAL_TLS_ROOTCAS=[/etc/hyperledger/fabric/tls/ca.crt]
+      - ORDERER_GENERAL_CLUSTER_CLIENTCERTIFICATE=/etc/hyperledger/fabric/tls/server.crt
+      - ORDERER_GENERAL_CLUSTER_CLIENTPRIVATEKEY=/etc/hyperledger/fabric/tls/server.key
+      - ORDERER_GENERAL_CLUSTER_ROOTCAS=[/etc/hyperledger/fabric/tls/ca.crt]
+    volumes:
+      - ./blockchain/config:/etc/hyperledger/fabric
+    ports:
+      - "7050:7050"
+    networks:
+      - fm-erp-network
+      
+  fabric-peer:
+    image: hyperledger/fabric-peer:2.4
+    container_name: fm-erp-peer
+    environment:
+      - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+      - CORE_PEER_ID=peer0.sme1.fm-erp.com
+      - CORE_PEER_ADDRESS=peer0.sme1.fm-erp.com:7051
+      - CORE_PEER_LISTENADDRESS=0.0.0.0:7051
+      - CORE_PEER_CHAINCODEADDRESS=peer0.sme1.fm-erp.com:7052
+      - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:7052
+      - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.sme1.fm-erp.com:7051
+      - CORE_PEER_LOCALMSPID=SME1MSP
+      - CORE_PEER_TLS_ENABLED=true
+      - CORE_PEER_TLS_CERT_FILE=/etc/hyperledger/fabric/tls/server.crt
+      - CORE_PEER_TLS_KEY_FILE=/etc/hyperledger/fabric/tls/server.key
+      - CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/tls/ca.crt
+    volumes:
+      - /var/run/:/host/var/run/
+      - ./blockchain/config/peer:/etc/hyperledger/fabric
+    depends_on:
+      - fabric-orderer
+    ports:
+      - "7051:7051"
+    networks:
+      - fm-erp-network
+      
+  # ========================================
+  # DATABASES
+  # ========================================
+  
+  postgres:
+    image: postgres:15-alpine
+    container_name: fm-erp-postgres
+    environment:
+      POSTGRES_USER: fm_erp
+      POSTGRES_PASSWORD: secure_password_change_me
+      POSTGRES_DB: warehouse_management
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - fm-erp-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fm_erp"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      
+  influxdb:
+    image: influxdb:2.7-alpine
+    container_name: fm-erp-influxdb
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: admin
+      DOCKER_INFLUXDB_INIT_PASSWORD: admin_password_change_me
+      DOCKER_INFLUXDB_INIT_ORG: fm-erp
+      DOCKER_INFLUXDB_INIT_BUCKET: iot_sensors
+      DOCKER_INFLUXDB_INIT_RETENTION: 30d
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: my-super-secret-token
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+    ports:
+      - "8086:8086"
+    networks:
+      - fm-erp-network
+    healthcheck:
+      test: ["CMD", "influx", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      
+  redis:
+    image: redis:7-alpine
+    container_name: fm-erp-redis
+    command: redis-server --requirepass redis_password_change_me
+    volumes:
+      - redis-data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - fm-erp-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      
+  # ========================================
+  # MESSAGE QUEUE
+  # ========================================
+  
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: fm-erp-zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    volumes:
+      - zookeeper-data:/var/lib/zookeeper/data
+      - zookeeper-logs:/var/lib/zookeeper/log
+    networks:
+      - fm-erp-network
+      
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: fm-erp-kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+    networks:
+      - fm-erp-network
+    healthcheck:
+      test: ["CMD", "kafka-topics", "--bootstrap-server", "localhost:9092", "--list"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      
+  # ========================================
+  # APPLICATION SERVICES
+  # ========================================
+  
+  fl-server:
+    build:
+      context: ./fl_server
+      dockerfile: Dockerfile
+    container_name: fm-erp-fl-server
+    environment:
+      - FL_SERVER_ADDRESS=0.0.0.0:8080
+      - MIN_FIT_CLIENTS=10
+      - MIN_AVAILABLE_CLIENTS=12
+      - NUM_ROUNDS=200
+      - BLOCKCHAIN_HOST=fabric-peer
+      - BLOCKCHAIN_PORT=7051
+    ports:
+      - "8080:8080"
+    depends_on:
+      - fabric-peer
+      - redis
+    networks:
+      - fm-erp-network
+    volumes:
+      - ./fl_server:/app
+      
+  digital-twin:
+    build:
+      context: ./digital_twin
+      dockerfile: Dockerfile
+    container_name: fm-erp-digital-twin
+    environment:
+      - DT_API_PORT=8081
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_TOKEN=my-super-secret-token
+      - INFLUXDB_ORG=fm-erp
+      - INFLUXDB_BUCKET=iot_sensors
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=warehouse_management
+      - POSTGRES_USER=fm_erp
+      - POSTGRES_PASSWORD=secure_password_change_me
+    ports:
+      - "8081:8081"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      influxdb:
+        condition: service_healthy
+    networks:
+      - fm-erp-network
+    volumes:
+      - ./digital_twin:/app
+      
+  iot-processor:
+    build:
+      context: ./iot
+      dockerfile: Dockerfile
+    container_name: fm-erp-iot-processor
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:29092
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_TOKEN=my-super-secret-token
+      - BLOCKCHAIN_HOST=fabric-peer
+      - BLOCKCHAIN_PORT=7051
+    depends_on:
+      kafka:
+        condition: service_healthy
+      influxdb:
+        condition: service_healthy
+    networks:
+      - fm-erp-network
+    volumes:
+      - ./iot:/app
+      
+  api-gateway:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: fm-erp-api-gateway
+    environment:
+      - API_PORT=8000
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - FL_SERVER_URL=http://fl-server:8080
+      - DT_URL=http://digital-twin:8081
+      - JWT_SECRET=your-jwt-secret-change-me
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+      - fl-server
+      - digital-twin
+    networks:
+      - fm-erp-network
+    volumes:
+      - ./api:/app
+      
+  # ========================================
+  # MONITORING
+  # ========================================
+  
+  prometheus:
+    image: prom/prometheus:v2.47.0
+    container_name: fm-erp-prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - fm-erp-network
+      
+  grafana:
+    image: grafana/grafana:10.1.0
+    container_name: fm-erp-grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin_password_change_me
+      - GF_INSTALL_PLUGINS=grafana-clock-panel
+    volumes:
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
+      - grafana-data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    networks:
+      - fm-erp-network
+
+# ========================================
+# NETWORKS
+# ========================================
+
+networks:
+  fm-erp-network:
+    driver: bridge
+
+# ========================================
+# VOLUMES
+# ========================================
+
+volumes:
+  postgres-data:
+  influxdb-data:
+  redis-data:
+  kafka-data:
+  zookeeper-data:
+  zookeeper-logs:
+  prometheus-data:
+  grafana-data:
